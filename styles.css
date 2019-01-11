@@ -1,18 +1,23 @@
 body {
     margin: 0;
+    font-family: Helvetica, sans-serif;
 }
-
 .header {
     text-align: center;
     padding: 1rem 1rem 0rem 1rem;
 }
 
+.dash {
+    border: 1px solid rgb(255, 81, 0);
+    height: auto;
+}
+
 .title {
-    color:rgb(255, 166, 0);
+    color:rgb(255, 81, 0);
 }
 
 p {
-    color:rgb(2, 6, 7);
+    color:rgb(20, 33, 37);
 }
 
 .main {
@@ -40,14 +45,15 @@ p {
 }
 
 figcaption {
-    color: aqua;
+    color: rgb(20, 39, 39);
+    text-align: center;
 }
 
 .aside {
     margin: 1rem auto 0;
     flex-basis: 50%;
     overflow-wrap: break-word;
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
     line-height: 1.5rem;
 }
 .Arti{
